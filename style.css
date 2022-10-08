@@ -1,0 +1,127 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    position: fixed;
+    color: seashell;
+    opacity: 0.9;
+    border-bottom:1px solid seashell;
+    width: 100%;
+}
+.header img{
+    height: 50px;
+    
+    margin-left: 10px;
+}
+.header  li{
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 30px;
+
+}
+.hero{
+    position: relative;
+    top:70px;
+    height: 700px;
+    text-align: center;
+    background-image: url(images/img-mission-background.jpg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.hero-content{
+    background-color: black;
+    color:seashell;
+    width: 1200px;
+    
+}
+.galery{
+    width: ;
+    position: relative;
+    top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.galery-text{
+    position: relative;
+    top:90px;
+    text-align: center;
+
+    color: seashell;
+   
+    
+}
+
+ .img-galery img{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+   
+}
+.img-galery p{
+    color:seashell;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.location-background{
+    background-image: url('images/img-locations-background.jpg');
+   position: relative;
+   top: 40px;
+   
+}
+.location-title{
+    position: relative;
+    top:50px;
+    height: 500px;
+    color:seashell;
+    
+}
+.location-h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.location{
+display: flex;
+justify-content: center;
+
+}
+
+.location-card{
+    
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    color: seashell;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer{
+    color: seashell;
+    position: relative;
+    top: 40px;
+}
+.footer .footer-contact{
+    text-align: center;
+    height: 200px;
+}
+.footer-contact h2, h5, p{
+    margin-bottom: 35px;
+}
+.footer .copy{
+    margin-left: 10px;
+    margin-top: -10px;
+}
